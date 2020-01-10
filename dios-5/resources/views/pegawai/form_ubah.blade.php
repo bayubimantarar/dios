@@ -13,7 +13,7 @@
     <div class="col-lg-12">
       <div class="card" style="margin-top: 25px;">
         <div class="card-body">
-          <h5 class="card-title">Pegawai &raquo; Form Tambah</h5>
+          <h5 class="card-title">Pegawai &raquo; Form Ubah</h5>
           <form action="/ubah/{{ $pegawai->id }}" method="post" enctype="multipart/form-data">
             <input
                 type="hidden"
